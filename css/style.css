@@ -336,8 +336,8 @@ blockquote small:before {
 input.input, textarea, input[type=password], input[type=text], input[type=email], input[type=number], input[type=tel], input[type=url] {
   background: transparent;
   border-radius: 0;
-  border: 1px solid #0ff;
-  color: #fff;
+  border: 1px solid #ffff;
+  color: #ffff;
   font-size: 0.875rem;
   font-family: Lato;
   font-weight: 300;
@@ -1277,8 +1277,8 @@ body.under-construction #wrapper {
 /*---------- Border Gradient --------*/
 /*-----------------------------------*/
 .border-gradient {
-  border-top: 3px solid #1d4ef1;
-  border-bottom: 3px solid #ee2c31;
+  border-top: 3px solid #ffff;
+  border-bottom: 3px solid #ffff;
   position: relative;
   padding: 60px 3px;
 }
@@ -1294,14 +1294,14 @@ body.under-construction #wrapper {
 }
 .border-gradient:before {
   left: 0;
-  background: linear-gradient(to top, #ee2c30 0%, #1c4ef1 100%);
+  background: linear-gradient(to top, #ffff 0%, #ffff 100%);
   background: -ms-linear-gradient(to top, #ee2c30 0%, #1c4ef1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c4ef1',endColorstr='#ee2c30',GradientType=0);
   zoom: 1;
 }
 .border-gradient:after {
   right: 0;
-  background: linear-gradient(to top, #ee2c30 0%, #1c4ef1 100%);
+  background: linear-gradient(to top, #ffff 0%, #ffff 100%);
   background: -ms-linear-gradient(to top, #ee2c30 0%, #1c4ef1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c4ef1',endColorstr='#ee2c30',GradientType=0);
   zoom: 1;
