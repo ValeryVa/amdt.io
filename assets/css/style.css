@@ -1452,7 +1452,7 @@ label {
 .header .navbar .logo {
   max-width: 100%;
   height: auto;
-  line-height: 140px;
+  line-height: 198px;
 }
 
 .navbar-nav>li {
@@ -1479,11 +1479,11 @@ label {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 991px) {
   .header {
-    height: 80px;
+    height: 198px;
   }
 
   .header .navbar {
-    min-height: 80px;
+    min-height: 198px;
     -moz-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.06);
     -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.06);
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.06);
@@ -1497,8 +1497,8 @@ label {
   }
 
   .navbar .navbar-brand {
-    height: 80px;
-    line-height: 80px;
+    height: 198px;
+    line-height: 198px;
     margin-left: 15px;
   }
 
@@ -1847,7 +1847,7 @@ label {
 
 @media only screen and (max-width: 991px) {
   .hero {
-    padding-top: 140px;
+    padding-top: 215px;
     text-align: center;
   }
 
